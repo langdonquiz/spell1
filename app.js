@@ -252,6 +252,12 @@ const wordLists = {
   { word: "clue", definition: "something that helps solve a puzzle or mystery", examples: ["The map gave a big ______.", "Can you find the next ______?"] }
 ],
 
+
+
+
+
+
+
 "Spring 1 Week 1": [
   { word: "lie", definition: "to not tell the truth", examples: ["It’s wrong to ______.", "Don’t ______ to your friends."] },
   { word: "cried", definition: "shed tears", examples: ["She ______ when she fell.", "He ______ during the sad movie."] },
@@ -524,6 +530,8 @@ const wordLists = {
   { word: "pink", definition: "a light red colour", examples: ["She wore a ______ dress.", "The flower is bright ______."] }
 ],
 
+
+
 "Summer 1 Week 1": [
   { word: "cats", definition: "more than one cat", examples: ["The ______ chased a mouse.", "Two black ______ sat on the wall."] },
   { word: "rocks", definition: "hard pieces of stone", examples: ["He picked up some ______.", "We found ______ by the river."] },
@@ -588,25 +596,31 @@ const wordLists = {
 ],
 
 "Summer 1 Week 4": [
-  { word: "unhappy", definition: "not happy", examples: ["She looked ______ today.", "He felt ______ about the test."] },
-  { word: "unfair", definition: "not fair", examples: ["That rule is ______!", "It's ______ to cheat."] },
-  { word: "unarmed", definition: "not carrying weapons", examples: ["The man was ______.", "The guards were ______ at the gate."] },
-  { word: "unfasten", definition: "to undo or open something", examples: ["Please ______ your coat.", "He tried to ______ the buttons."] },
-  { word: "unwell", definition: "not feeling well", examples: ["I feel ______ today.", "She stayed home because she was ______."] },
-  { word: "undo", definition: "to take back or reverse", examples: ["Can you ______ the knot?", "Click here to ______ your last move."] },
-  { word: "unlock", definition: "to open a lock", examples: ["I will ______ the door.", "She forgot how to ______ her phone."] },
-  { word: "unbolt", definition: "to slide a bolt open", examples: ["He tried to ______ the gate.", "______ the door from inside."] },
-  { word: "unknown", definition: definition: "not known or familiar", examples: ["We took an ______ path.", "An ______ number called me."] },
-  { word: "unable", definition: "not able to do something", examples: ["I was ______ to lift it.", "He is ______ to attend."] },
-  { word: "unload", definition: "to take things out", examples: ["Time to ______ the car.", "We ______ the boxes from the van."] },
-  { word: "unfold", definition: "to open something folded", examples: ["Please ______ your map.", "She ______ the blanket."] },
-  { word: "unfit", definition: "not in good health or not suitable", examples: ["He was ______ to run.", "That toy is ______ for babies."] },
-  { word: "unhealthy", definition: "not healthy", examples: ["Eating too much cake is ______.", "That snack is ______."] },
-  { word: "untidy", definition: "not neat or clean", examples: ["Your room is ______.", "Pick up these ______ clothes."] },
-  { word: "unusual", definition: "not common or normal", examples: ["That’s an ______ pet.", "She wore an ______ dress."] },
-  { word: "unpopular", definition: "not liked by many", examples: ["The rule was ______.", "He was ______ at school."] },
-  { word: "untrained", definition: "not taught or prepared", examples: ["The dog is still ______.", "I’m ______ for that job."] }
+  { word: "unhappy", definition: "feeling sad or not pleased", examples: ["She felt ______ after losing the game.", "He was ______ when he missed the party."] },
+  { word: "unfair", definition: "not just or equal", examples: ["It’s ______ to take turns.", "The decision was ______ to some players."] },
+  { word: "unarmed", definition: "not carrying any weapons", examples: ["The guards were ______.", "He was ______ during the peaceful protest."] },
+  { word: "unfasten", definition: "to open or undo something that is fastened", examples: ["Please ______ your seatbelt.", "She tried to ______ the button on her coat."] },
+  { word: "unwell", definition: "feeling sick or not healthy", examples: ["He stayed home because he was ______.", "She looked ______ after the trip."] },
+  { word: "undo", definition: "to reverse or take apart something done", examples: ["I need to ______ the knot.", "Can you ______ the zipper?"] },
+  { word: "unlock", definition: "to open something locked", examples: ["He used the key to ______ the door.", "Please ______ your phone with the code."] },
+  { word: "unbolt", definition: "to open something fastened with a bolt", examples: ["They ______ the gate to enter.", "Please ______ the window before cleaning."] },
+  { word: "unknown", definition: "not known or familiar", examples: ["The cause of the noise is ______.", "She traveled to an ______ country."] },
+  { word: "unable", definition: "not able to do something", examples: ["He was ______ to finish the race.", "She felt ______ to answer the question."] },
+  { word: "unload", definition: "to take things off a vehicle", examples: ["They ______ the boxes from the truck.", "Please help me ______ the car."] },
+  { word: "unfold", definition: "to open or spread something out", examples: ["She ______ the map to see the route.", "He ______ the letter carefully."] },
+  { word: "unfit", definition: "not healthy or ready for a task", examples: ["He felt ______ after the illness.", "The shoes were ______ for running."] },
+  { word: "unhealthy", definition: "not good for your health", examples: ["Eating too much candy is ______.", "Smoking is ______ for your lungs."] },
+  { word: "untidy", definition: "messy or not neat", examples: ["Her room was ______ after the party.", "The desk looked ______ and cluttered."] },
+  { word: "unusual", definition: "not common or normal", examples: ["That was an ______ sight.", "He wore an ______ hat."] },
+  { word: "unpopular", definition: "not liked by many people", examples: ["The idea was ______ with the class.", "He felt ______ at school."] },
+  { word: "untrained", definition: "not having the necessary skills or practice", examples: ["The ______ dog needed more lessons.", "She was ______ for the difficult task."] }
 ],
+
+
+
+
+
+
 
 
 "Summer 1 Week 6": [
@@ -796,6 +810,7 @@ const wordLists = {
   { word: "copy", definition: "to do the same thing or make a duplicate", examples: ["Please ______ the sentence.", "She tried to ______ my drawing."] },
   { word: "pony", definition: "a small horse", examples: ["The child rode a ______.", "We saw a brown ______."] }
 ]
+
 };
 let currentList = null;
 let quizWords = [];
