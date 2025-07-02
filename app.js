@@ -311,7 +311,6 @@ const wordLists = {
   { word: "house", definition: "a building where people live", examples: ["We built a ______ with blocks.", "Their ______ has a red door."] }
 ],
 
-
 "Autumn 2 Week 6": [
   { word: "now", definition: "at this moment", examples: ["We are eating lunch ______.", "Do it right ______."] },
   { word: "down", definition: "moving lower", examples: ["She climbed ______ the stairs.", "Put the book ______."] },
