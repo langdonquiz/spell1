@@ -796,9 +796,6 @@ const wordLists = {
   { word: "copy", definition: "to do the same thing or make a duplicate", examples: ["Please ______ the sentence.", "She tried to ______ my drawing."] },
   { word: "pony", definition: "a small horse", examples: ["The child rode a ______.", "We saw a brown ______."] }
 ]
-
-
-
 };
 let currentList = null;
 let quizWords = [];
