@@ -1,6 +1,5 @@
 const wordLists = {
 
-
 "Autumn 1 Week 2": [
   { word: "made", definition: "put together or built something", examples: ["I ______ a card for my friend's birthday.", "She ______ a paper plane during class."] },
   { word: "take", definition: "to pick up or carry something away", examples: ["Please ______ your shoes off before entering.", "He will ______ the book home to read."] },
@@ -797,6 +796,9 @@ const wordLists = {
   { word: "copy", definition: "to do the same thing or make a duplicate", examples: ["Please ______ the sentence.", "She tried to ______ my drawing."] },
   { word: "pony", definition: "a small horse", examples: ["The child rode a ______.", "We saw a brown ______."] }
 ]
+
+
+
 };
 let currentList = null;
 let quizWords = [];
